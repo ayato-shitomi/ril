@@ -1,0 +1,86 @@
+* {
+	margin:0; padding:0;
+}
+
+body {
+	background-color: #C3D7F4;
+	background-image: url("src/bg1.png");
+}
+
+header {
+	width: 100%;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #7C71C4;
+}
+
+header .headline{
+	font-size: 40px;
+	font-family: 'cursive';
+	color: #4BC8A3;
+}
+.nav-list {
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+a {
+	text-decoration: none;
+	color: none;
+}
+
+a:hover {
+	color: black;
+	font-weight: bolder;
+}
+
+.classRil {
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+	background: rgba(255,255,255, 0.6);
+	width: 70%;
+}
+
+.classTitle { /*タイトルにつけるクラス*/
+	padding: 30px 5px 0;
+	margin: 10px;
+	border-bottom: double 5px black;
+	display: inline-block;
+}
+.classWeAre {
+	font-weight: bolder;
+}
+.classSince {
+	font-weight: lighter;
+}
+
+.classMemBox {
+	width: 80%;
+	border: solid 3px;
+	padding: 10px;
+	margin: 20px auto;
+}
+.classMemBox:hover {
+	background: rgba(255,255,255, 0.3);
+}
+.className {
+	font-weight: bolder;
+	padding: 15px;
+}
+.classmemPic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.classMsg {
+	padding: 3px;
+}
