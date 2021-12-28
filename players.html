@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="index.css">
+		<link rel="icon" href="src/RiL_favicon.ico">
+		<title>【RiL】ゲームクラン公式</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="headline">
+				<p>Rabbit in Lunar</p>
+			</h1>
+			<ul class="nav-list">
+				<li class="nav-list-item">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="nav-list-item">
+					<a href="about.html">About</a>
+				</li>
+				<li class="nav-list-item">
+					<a href="players.html">Players</a>
+				</li>
+			</ul>
+		</header>
+		
+		<div class="classRil" id="playerList">
+			<h1 class="classTitle">Players</h1>
+			<p>在籍しているプレーヤーの一覧です</p>
+			<p>カーソルを合わせると過去最高ランクが表示されます....</p>
+		</div>
+		<script language="javascript" type="text/javascript">
+			const	dataSet = [
+				{
+					playerName: "LabPixel",
+					playerText: "クランのWebページ作ってます。万年ダイヤです。",
+					TwitterLnk: "VjOPEs69JatqApN",
+					MaxRanked: "d",
+				},
+				{
+					playerName: "LabPixel",
+					playerText: "クランのWebページ作ってます。万年ダイヤです。",
+					TwitterLnk: "VjOPEs69JatqApN",
+					MaxRanked: "m",
+				},
+				{
+					playerName: "LabPixel",
+					playerText: "クランのWebページ作ってます。万年ダイヤです。",
+					TwitterLnk: "",
+					MaxRanked: "p",
+				}
+			];
+		
+			var	parent = document.getElementById('playerList');
+			dataSet.forEach(item => {
+				var	div = document.createElement("div");
+				var	h2 = document.createElement("h2");
+				var	img = document.createElement("img");
+				var	p = document.createElement("p");
+				var	a = document.createElement("a");
+
+				h2.className = 'className';
+				img.className = 'classmemPic';
+				p.className = "classMsg";
+				a.className = 'classURL';
+				
+				if (item.MaxRanked == "d") {
+					div.className = 'classMemBoxDiamond';
+				} else if (item.MaxRanked == "m") {
+					div.className = 'classMemBoxMaster';
+				} else if (item.MaxRanked == "p") {
+					div.className = 'classMemBoxPredator';
+				} else {
+					div.className = 'classMemBox';
+				}
+				
+				h2.innerText = item.playerName;
+				img.src = "./src/memPic/" + item.playerName + ".jpg";
+				p.innerText = item.playerText;
+				if (!item.TwitterLnk){
+					a.innerText = "【Twitter】なし";
+				} else {
+					a.href = "https://twitter.com/" + item.TwitterLnk;
+					a.innerText = "【Twitter】@" + item.TwitterLnk;
+				}
+				a.target = "_blank";
+				
+				div.appendChild(h2);
+				div.appendChild(img);
+				div.appendChild(p);
+				div.appendChild(a);
+				parent.appendChild(div);
+			});
+		</script>
+	</body>
+</html>

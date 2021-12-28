@@ -4,7 +4,7 @@
 
 body {
 	background-color: #C3D7F4;
-	background-image: url("src/bg1.png");
+	background-image: url("src/bg3.png");
 }
 
 header {
@@ -16,9 +16,10 @@ header {
 }
 
 header .headline{
-	font-size: 40px;
+	font-size: 60px;
 	font-family: 'cursive';
 	color: #4BC8A3;
+	font-style: italic;
 }
 .nav-list {
 	text-align: center;
@@ -30,6 +31,8 @@ header .headline{
 	list-style: none;
 	display: inline-block;
 	margin: 0 20px;
+	<!---border: solid 1px;>
+	padding: 10px 0;
 }
 
 a {
@@ -46,8 +49,9 @@ a:hover {
 	margin: 0 auto;
 	text-align: center;
 	padding: 20px 0;
-	background: rgba(255,255,255, 0.6);
+	background: rgba(255,255,255, 0.7);
 	width: 70%;
+	height: 1000px;
 }
 
 .classTitle { /*タイトルにつけるクラス*/
@@ -55,6 +59,7 @@ a:hover {
 	margin: 10px;
 	border-bottom: double 5px black;
 	display: inline-block;
+	font-size: 50px;
 }
 .classWeAre {
 	font-weight: bolder;
@@ -72,6 +77,49 @@ a:hover {
 .classMemBox:hover {
 	background: rgba(255,255,255, 0.3);
 }
+
+/*ランクの背景色での色分け↓*/
+.classMemBoxDiamond {
+	width: 80%;
+	border: solid 3px;
+	padding: 10px;
+	margin: 20px auto;
+}
+.classMemBoxDiamond:hover {
+	background: rgba(0,191,255, 0.3);
+	background-image: url("src/diamond.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 80px auto;
+}
+.classMemBoxMaster {
+	width: 80%;
+	border: solid 3px;
+	padding: 10px;
+	margin: 20px auto;
+}
+.classMemBoxMaster:hover {
+	background: rgba(75,0,130, 0.3);
+	background-image: url("src/master.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 80px auto;
+}
+.classMemBoxPredator {
+	width: 80%;
+	border: solid 3px;
+	padding: 10px;
+	margin: 20px auto;
+}
+.classMemBoxPredator:hover {
+	background: rgba(140,10,10, 0.3);
+	background-image: url("src/predator.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 80px auto;
+}
+/*↑*/
+
 .className {
 	font-weight: bolder;
 	padding: 15px;
@@ -83,4 +131,10 @@ a:hover {
 }
 .classMsg {
 	padding: 3px;
+}
+
+.classRILImg {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
