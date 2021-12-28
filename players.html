@@ -32,9 +32,17 @@
 		</div>
 		<script language="javascript" type="text/javascript">
 			const	dataSet = [];
-			fetch('playerList.json')
-				.then(response => response.json())
-				.then(data => console.log(data));
+			const	dataUrl = 'https://hello-japan.github.io/ril/playerList.json';
+			fetch(dataUrl)
+			   .then((response) => {
+				   return response.json()　//ここでBodyからJSONを返す
+			   })
+			   .then((result) => {
+				   dataSet = result;  //取得したJSONデータを関数に渡す 
+			   })
+			   .catch((e) => {
+				   console.log(e)  //エラーをキャッチし表示     
+			   });
 		
 			var	parent = document.getElementById('playerList');
 			dataSet.forEach(item => {
