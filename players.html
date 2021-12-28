@@ -31,26 +31,10 @@
 			<p>カーソルを合わせると過去最高ランクが表示されます....</p>
 		</div>
 		<script language="javascript" type="text/javascript">
-			const	dataSet = [
-				{
-					playerName: "LabPixel",
-					playerText: "クランのWebページ作ってます。万年ダイヤです。",
-					TwitterLnk: "VjOPEs69JatqApN",
-					MaxRanked: "d",
-				},
-				{
-					playerName: "LabPixel",
-					playerText: "クランのWebページ作ってます。万年ダイヤです。",
-					TwitterLnk: "VjOPEs69JatqApN",
-					MaxRanked: "m",
-				},
-				{
-					playerName: "LabPixel",
-					playerText: "クランのWebページ作ってます。万年ダイヤです。",
-					TwitterLnk: "",
-					MaxRanked: "p",
-				}
-			];
+			const	dataSet = [];
+			fetch('playerList.json')
+				.then(response => response.json())
+				.then(data => console.log(data));
 		
 			var	parent = document.getElementById('playerList');
 			dataSet.forEach(item => {
