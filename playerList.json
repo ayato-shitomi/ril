@@ -1,18 +1,20 @@
-{
-	playerName: "LabPixel",
-	playerText: "クランのWebページ作ってます。万年ダイヤです。",
-	TwitterLnk: "VjOPEs69JatqApN",
-	MaxRanked: "d"
-},
-{
-	playerName: "LabPixel",
-	playerText: "クランのWebページ作ってます。万年ダイヤです。",
-	TwitterLnk: "VjOPEs69JatqApN",
-	MaxRanked: "m"
-},
-{
-	playerName: "LabPixel",
-	playerText: "クランのWebページ作ってます。万年ダイヤです。",
-	TwitterLnk: "",
-	MaxRanked: "p"
-}
+[
+	{
+		"playerName": "LabPixel",
+		"playerText": "クランのWebページ作ってます。万年ダイヤです。",
+		"TwitterLnk": "VjOPEs69JatqApN",
+		"MaxRanked": "d"
+	},
+	{
+		"playerName": "LabPixel",
+		"playerText": "クランのWebページ作ってます。万年ダイヤです。",
+		"TwitterLnk": "VjOPEs69JatqApN",
+		"MaxRanked": "m"
+	},
+	{
+		"playerName": "LabPixel",
+		"playerText": "クランのWebページ作ってます。万年ダイヤです。",
+		"TwitterLnk": "VjOPEs69JatqApN",
+		"MaxRanked": "p"
+	}
+]
