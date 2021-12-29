@@ -37,12 +37,16 @@ header .headline{
 
 a {
 	text-decoration: none;
-	color: none;
+	color: blue;
 }
 
 a:hover {
 	color: black;
 	font-weight: bolder;
+}
+
+p {
+	padding: 5px 0;
 }
 
 .classRil {
@@ -51,7 +55,7 @@ a:hover {
 	padding: 20px 0;
 	background: rgba(255,255,255, 0.7);
 	width: 70%;
-	height: 1000px;
+	/* height: 1000px; */
 }
 
 .classTitle { /*タイトルにつけるクラス*/
@@ -68,6 +72,8 @@ a:hover {
 	font-weight: lighter;
 }
 
+
+/*メンバーボックス関連*/
 .classMemBox {
 	width: 80%;
 	border: solid 3px;
@@ -76,8 +82,8 @@ a:hover {
 }
 .classMemBox:hover {
 	background: rgba(255,255,255, 0.3);
+	box-shadow: 10px 10px;
 }
-
 /*ランクの背景色での色分け↓*/
 .classMemBoxDiamond {
 	width: 80%;
@@ -91,6 +97,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 80px auto;
+	box-shadow: 10px 10px;
 }
 .classMemBoxMaster {
 	width: 80%;
@@ -104,6 +111,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 80px auto;
+	box-shadow: 10px 10px;
 }
 .classMemBoxPredator {
 	width: 80%;
@@ -117,6 +125,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 80px auto;
+	box-shadow: 10px 10px;
 }
 /*↑*/
 

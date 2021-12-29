@@ -36,48 +36,52 @@
 			.then(response => {
 				return response.json();
 			})
-			.then(jsondata => console.log(jsondata));
-		
-			var	parent = document.getElementById('playerList');
-			dataSet.forEach(item => {
-				var	div = document.createElement("div");
-				var	h2 = document.createElement("h2");
-				var	img = document.createElement("img");
-				var	p = document.createElement("p");
-				var	a = document.createElement("a");
-
-				h2.className = 'className';
-				img.className = 'classmemPic';
-				p.className = "classMsg";
-				a.className = 'classURL';
-				
-				if (item.MaxRanked == "d") {
-					div.className = 'classMemBoxDiamond';
-				} else if (item.MaxRanked == "m") {
-					div.className = 'classMemBoxMaster';
-				} else if (item.MaxRanked == "p") {
-					div.className = 'classMemBoxPredator';
-				} else {
-					div.className = 'classMemBox';
-				}
-				
-				h2.innerText = item.playerName;
-				img.src = "./src/memPic/" + item.playerName + ".jpg";
-				p.innerText = item.playerText;
-				if (!item.TwitterLnk){
-					a.innerText = "【Twitter】なし";
-				} else {
-					a.href = "https://twitter.com/" + item.TwitterLnk;
-					a.innerText = "【Twitter】@" + item.TwitterLnk;
-				}
-				a.target = "_blank";
-				
-				div.appendChild(h2);
-				div.appendChild(img);
-				div.appendChild(p);
-				div.appendChild(a);
-				parent.appendChild(div);
+			.then(jsondata => {
+				output(jsondata);
 			});
+			
+			function output(dataSet){
+				var	parent = document.getElementById('playerList');
+				dataSet.forEach(item => {
+					var	div = document.createElement("div");
+					var	h2 = document.createElement("h2");
+					var	img = document.createElement("img");
+					var	p = document.createElement("p");
+					var	a = document.createElement("a");
+
+					h2.className = 'className';
+					img.className = 'classmemPic';
+					p.className = "classMsg";
+					a.className = 'classURL';
+					
+					if (item.MaxRanked == "d") {
+						div.className = 'classMemBoxDiamond';
+					} else if (item.MaxRanked == "m") {
+						div.className = 'classMemBoxMaster';
+					} else if (item.MaxRanked == "p") {
+						div.className = 'classMemBoxPredator';
+					} else {
+						div.className = 'classMemBox';
+					}
+					
+					h2.innerText = item.playerName;
+					img.src = "./src/memPic/" + item.playerName + ".jpg";
+					p.innerText = item.playerText;
+					if (!item.TwitterLnk){
+						a.innerText = "【Twitter】なし";
+					} else {
+						a.href = "https://twitter.com/" + item.TwitterLnk;
+						a.innerText = "【Twitter】@" + item.TwitterLnk;
+					}
+					a.target = "_blank";
+					
+					div.appendChild(h2);
+					div.appendChild(img);
+					div.appendChild(p);
+					div.appendChild(a);
+					parent.appendChild(div);
+				});
+			}
 		</script>
 	</body>
 </html>
