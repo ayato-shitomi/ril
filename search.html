@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="index.css">
+		<link rel="icon" href="src/RiL_favicon.ico">
+		<title>【RiL】ゲームクラン公式</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="headline">
+				<p>Rabbit in Lunar</p>
+			</h1>
+			<ul class="nav-list">
+				<li class="nav-list-item">
+					<a href="index.html">Home</a>
+				</li>
+				<li class="nav-list-item">
+					<a href="about.html">About</a>
+				</li>
+				<li class="nav-list-item">
+					<a href="players.html">Players</a>
+				</li>
+			</ul>
+		</header>
+		
+		<div class="classRil" id="playerList">
+			<h1 class="classTitle">プレーヤー検索</h1>
+		</div>
+		<script language="javascript" type="text/javascript">
+		var	request = new XMLHttpRequest();
+		var	apiUrl = "https://api.mozambiquehe.re/bridge?version=5&platform=PC&player=LMT_LabPixel&auth=Q1x66FJp8ncfBdFir2ye"
+
+		request.open('GET', apiUrl, true);
+		request.onload = function () {
+			var	data = this.response;
+			console.log(data);
+		}
+		request.send();
+		</script>
+	</body>
+</html>
