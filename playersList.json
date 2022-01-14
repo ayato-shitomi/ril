@@ -1,33 +1,33 @@
 [
 	{
-		"playerName": "LabPixel",
-		"playerText": "クランのWebページ作ってます。万年ダイヤです。",
-		"TwitterLnk": "VjOPEs69JatqApN",
-		"MaxRanked": "d"
-	},
-	{
-		"playerName": "LabPixel1",
-		"playerText": "クランのWebページ作ってます。万年ダイヤです。",
-		"TwitterLnk": "VjOPEs69JatqApN",
-		"MaxRanked": "m"
-	},
-	{
-		"playerName": "LabPixel2",
-		"playerText": "クランのWebページ作ってます。万年ダイヤです。",
-		"TwitterLnk": "VjOPEs69JatqApN",
-		"MaxRanked": "p"
-	},
-	{
-	"playerName" : "daisuke",
-	"playerText" : "適当プラチナです",
-	"TwitterLnk" : "DaisukeRiL",
-	"MaxRanked" : "d"
-	},
-	{
 		"playerName" : "ofly",
-		"playerText" : "クラマスやってます。Noobです。",
+		"playerText" : "クラマスやってます！Noobです。",
 		"TwitterLnk" : "ofly77",
 		"MaxRanked" : "m"
+	},
+	{
+		"playerName" : "あんこ",
+		"playerText" : "クラマスやってます！特上カルビも上カルビも違いわかんなくね？ 関係ないけどシロクマに右利きの個体はいないらしい",
+		"TwitterLnk" : "SIRO_Anko903",
+		"MaxRanked" : "m"
+	},
+	{
+		"playerName" : "Rethfinder",
+		"playerText" : "無限にランクマしてます。ｱﾋﾞｬ〜",
+		"TwitterLnk" : "rethfinder",
+		"MaxRanked" : "p"
+	},
+	{
+		"playerName" : "sSrK",
+		"playerText" : "開幕プレデターしか踏めないサークです。普段はPADを使っていますがキーマウも練習しています。僕に人脈を下さい。",
+		"TwitterLnk" : "noType_sSrK",
+		"MaxRanked" : "p"
+	},
+	{
+		"playerName" : "Pekkon",
+		"playerText" : "のんびり アリーナ踏みデターデス",
+		"TwitterLnk" : "Peko56769",
+		"MaxRanked" : "p"
 	},
 	{
 		"playerName" : "たくたく",
@@ -48,21 +48,9 @@
 		"MaxRanked" : "m"
 	},
 	{
-		"playerName" : "ぷっちー",
-		"playerText" : "YouTubeをやっていてAPEXの動画など出しています！",
-		"TwitterLnk" : "Pucchii_Sabu",
-		"MaxRanked" : "d"
-	},
-	{
 		"playerName" : "社員",
 		"playerText" : "アラサー社畜妻子猫持ちです。クリプトのドローンでアシストすることが僕の使命です。",
 		"TwitterLnk" : "ViazPro",
-		"MaxRanked" : "m"
-	},
-	{
-		"playerName" : "そんなに好きなわけでもないが、名前はあんこです",
-		"playerText" : "特上カルビも上カルビも違いわかんなくね？ 関係ないけどシロクマに右利きの個体はいないらしい",
-		"TwitterLnk" : "SIRO_Anko903",
 		"MaxRanked" : "m"
 	},
 	{
@@ -72,26 +60,8 @@
 		"MaxRanked" : "m"
 	},
 	{
-		"playerName" : "Rethfinder",
-		"playerText" : "無限にランクマしてます。ｱﾋﾞｬ〜",
-		"TwitterLnk" : "rethfinder",
-		"MaxRanked" : "p"
-	},
-	{
-		"playerName" : "あいる",
-		"playerText" : "フラトラしか勝たん❕ ワト練習中👶🏻🍼⚡",
-		"TwitterLnk" : "Winter_Cocktail",
-		"MaxRanked" : "d"
-	},
-	{
-		"playerName" : "Pekkon",
-		"playerText" : "のんびり アリーナ踏みデターデス",
-		"TwitterLnk" : "Peko56769",
-		"MaxRanked" : "p"
-	},
-	{
 		"playerName" : "もちもちオクタン",
-		"playerText" : "爆速系おもちです。時々キル集出してます。 https://nico.ms/sm39809658 音声合成ソフトを使った動画を好みます。",
+		"playerText" : "爆速系おもちです。時々キル集出してます。 音声合成ソフトを使った動画を好みます。https://nico.ms/sm39809658",
 		"TwitterLnk" : "Octavio_Lover",
 		"MaxRanked" : "m"
 	},
@@ -106,5 +76,59 @@
 		"playerText" : "PCPADプレイヤー シーズン11スプリット1マスター 原神たのしいです",
 		"TwitterLnk" : "Tefu_APEX",
 		"MaxRanked" : "m"
+	},
+	{
+		"playerName" : "Pro",
+		"playerText" : "一応CS最高ランクマスターでやらせてもらってます。気持ちプレデター雰囲気プレデターで楽しくやることをモットーにやってます。",
+		"TwitterLnk" : "shiK0092130",
+		"MaxRanked" : "m"
+	},
+	{
+		"playerName" : "れんぴ",
+		"playerText" : "キーマウエイム最高峰目指します",
+		"TwitterLnk" : "renpidaze",
+		"MaxRanked" : "m"
+	},
+	{
+		"playerName" : "パモパモ",
+		"playerText" : "パモと呼んでください！私は和みやすいですよ。( 。∀ ﾟ)",
+		"TwitterLnk" : "Real_PP_",
+		"MaxRanked" : "m"
+	},
+	{
+		"playerName" : "謙信",
+		"playerText" : "マスターは目指さない、ただゴールド帯のマスターとして生き抜きます。",
+		"TwitterLnk" : "kensin23",
+		"MaxRanked" : "d"
+	},
+	{
+		"playerName": "LabPixel",
+		"playerText": "クランのWebページ作ってます。万年ダイヤです。",
+		"TwitterLnk": "VjOPEs69JatqApN",
+		"MaxRanked": "d"
+	},
+	{
+		"playerName" : "あいる",
+		"playerText" : "フラトラしか勝たん❕ ワト練習中👶🏻🍼⚡",
+		"TwitterLnk" : "Winter_Cocktail",
+		"MaxRanked" : "d"
+	},
+	{
+		"playerName" : "ぷっちー",
+		"playerText" : "YouTubeをやっていてAPEXの動画など出しています！",
+		"TwitterLnk" : "Pucchii_Sabu",
+		"MaxRanked" : "d"
+	},
+	{
+		"playerName" : "daisuke",
+		"playerText" : "楽しくやってます",
+		"TwitterLnk" : "Daisukeril",
+		"MaxRanked" : "d"
+	},
+	{
+		"playerName" : "Xtra_Cafe",
+		"playerText" : "カジュアルしか勝たんｿﾞ",
+		"TwitterLnk" : "xtra_cafe",
+		"MaxRanked" : "d"
 	}
 ]
