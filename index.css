@@ -26,13 +26,29 @@ header .headline{
 	padding: 10px 0;
 	margin: 0 auto;
 }
-
 .nav-list-item {
 	list-style: none;
 	display: inline-block;
 	margin: 0 20px;
 	<!---border: solid 1px;>
 	padding: 10px 0;
+}
+
+fotter {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+.classFotter {
+	background-color: #7C71C4;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.classRiltweet {
+	display: inline-block;
+	margin: 0 auto;
 }
 
 a {
